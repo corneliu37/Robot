@@ -1,0 +1,34 @@
+//Microsoft App Studio generated resource script.
+//
+#include "windows.h"
+#include "cursor.h"
+
+
+//////////////////
+
+// Menu
+//
+
+CURSORMENU MENU 
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Cursor...",            IDM_ABOUT
+    END
+END
+
+MYMENU MENU
+{
+   POPUP "&START"
+   {
+      POPUP "&Geno-Fuzzy"
+	  {
+		 MENUITEM "&Map 1",IDM_STATE1
+                 MENUITEM "&Map 2",IDM_STATE2
+                 MENUITEM "&Map 3",IDM_STATE3
+                
+          
+           }
+   }
+}
+
